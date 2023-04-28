@@ -1,17 +1,19 @@
 {
-  "name": "arras-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "arras-mayhem",
+  "description": "Arras.io with 10x the reload",
   "dependencies": {
-    "express": "^4.17.1",
-    "surge": "^0.21.6"
+    "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "keywords": [
+    "arras, game, arrasio"
+  ],
+    "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "contributors": [
+    {
+      "name": "Seaguli"
+    }
+  ]
 }
